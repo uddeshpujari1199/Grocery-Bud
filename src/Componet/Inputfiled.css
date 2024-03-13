@@ -1,0 +1,38 @@
+
+.main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    background-color: #F0FFF0;
+}
+.box-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    padding: 20px 40px;
+    background-color: white;
+}
+.box-div input{
+    padding: 10px;
+}
+.inputF{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputF button{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.inputF button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

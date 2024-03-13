@@ -1,0 +1,19 @@
+.iteam-Diva{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 10px;
+    padding: 0 20px;
+    background-color: white;
+}
+.iteam-Diva:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.delete-Btn button{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: larger;
+}
